@@ -1,0 +1,1 @@
+import type { MetadataRoute } from "next";export default function sitemap():MetadataRoute.Sitemap{const base="https://www.alamirtrac.com";return["/","/about","/services","/contact"].map(path=>({url:base+path,lastModified:new Date()}))}
